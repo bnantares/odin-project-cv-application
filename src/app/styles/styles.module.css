@@ -1,0 +1,60 @@
+.cv__form {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    gap: 24px;
+    padding: 24px 0px 22px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.cv__info__segment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input__info {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit__button {
+    display: flex;
+    justify-content: center;
+    background-color: #9da4b6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.submit__button:hover {
+    background-color: #767c8a;
+    cursor: pointer;
+}
+
+.edit__button {
+    background-color: #9da4b6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.edit__button:hover {
+    background-color: #767c8a;
+    cursor: pointer;
+}
